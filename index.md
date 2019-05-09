@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "SWC"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
+carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "Biblioteca - National Research Council"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "via Pietro Castellino 111, 80131 Naples"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
@@ -34,14 +34,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 For a workshop please delete the following block
 {% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
