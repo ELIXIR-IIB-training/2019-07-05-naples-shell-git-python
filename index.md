@@ -14,7 +14,6 @@ enddate: 2019-07-05         # machine-readable end date for the workshop in YYYY
 instructor: ["Vincenza Colonna", "TBA"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Francesco Musacchia", "TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["vincenza.colonna@igb.cnr.it"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-Organizers: ["Vincenza Colonna", "Anna Marabotti"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -71,7 +70,9 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <p>We do not provide food, but there are options for eating in the close proximities of the course venue, including a canteen.</p>
 
-
+<h3>Organizers</h3>
+<p> Vincenza Colonna, National Research Council - <a href="http://www.igb.cnr.it/popgenlab/research">Homepage</a> </p> 
+<p> Anna Marabotti, Univerita degli Studi di Salerno - <a href="https://docenti.unisa.it/025916/home">Homepage</a> </p> 
 
 <h2 id="general">General Information</h2>
 {% comment %}
