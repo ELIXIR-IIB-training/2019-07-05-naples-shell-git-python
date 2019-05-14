@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "Software Carpentry Workshop - Shell, Git, Python - National Research Council"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Software Carpentry Workshop - National Research Council - Naples"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "via Pietro Castellino 111, 80131 Naples"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "Italy"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -60,7 +60,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-<h2>Registration:</h2>
+<h2>Registration</h2>
 <p>To enroll fill this form: <a href="https://forms.gle/r7dXmaXYnHeWzF9VA">link</a> <p>
 <p> Deadline for application is <strong>June 15, 2019</strong> </p> 
 
@@ -640,6 +640,8 @@ please preview your site before committing, and make sure to run
   {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
+
+{% comment %}
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -695,7 +697,9 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %} 
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -776,7 +780,9 @@ please preview your site before committing, and make sure to run
       <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
       Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
+{% endcomment %}
 
+{% comment %}
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -828,7 +834,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+{% endcomment %}
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
