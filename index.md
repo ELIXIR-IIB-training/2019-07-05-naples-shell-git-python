@@ -11,9 +11,9 @@ humandate: "July 3-5 2019"    # human-readable dates for the workshop (e.g., "Fe
 humantime: "9:00 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-07-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-07-05         # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Vincenza Colonna"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Francesco Musacchia"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+instructor: ["Vincenza Colonna", "TBA"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Francesco Musacchia", "TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["vincenza.colonna@igb.cnr.it"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -60,10 +60,19 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
+<h2>Registration:</h2>
+<p>To enroll fill this form: <a href="https://forms.gle/r7dXmaXYnHeWzF9VA">link</a> <p>
+<p> Deadline for application is <strong>June 15, 2019</strong> </p> 
+
+<p>There are <strong>25 seats</strong> available. Partecipants will be selected on the basis of <strong>motivations given in the application form</strong>. Chosen participants will be notified by <strong>June 18, 2019</strong></p>
+
+<p><strong>Space is limited</strong> and it will likely fill quickly. <strong>The course is free but a no-show-up fee will be charged</strong> to your institution if you do not show-up.</p>
+
+<p>We do not provide food, but there are options for eating in the close proximities of the course venue, including a canteen.</p>
+
 
 
 <h2 id="general">General Information</h2>
-
 {% comment %}
 INTRODUCTION
 
